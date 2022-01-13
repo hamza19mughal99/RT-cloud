@@ -51,6 +51,7 @@
     margin-bottom: 30px;
 }
 
+
 .first_section_text_div span{
     color: #5DC1ED;
     font-weight: 900;
@@ -106,7 +107,6 @@
     right: 35%;
     border-bottom: 4px solid #5DC1ED;
 }
-
 
 .first_section_img_div p{
     color: #3D3F42;
@@ -290,4 +290,38 @@
     left: 50%;
     right: 41%;
     border-bottom: 4px solid #5DC1ED;
+}
+
+@media (max-width: 768px) {
+    .consulting_div h1::after{
+        display: none;
+    }
+
+    .consulting_div h1::before{
+        display: none;
+    }
+
+    .second_section h1::before{
+        display: none;
+    }
+
+    .second_section h1::after{
+        display: none;
+    }
+
+    .first_section_text_div h1::before {
+    display: none;
+    }
+
+    .first_section_text_div h1::after {
+        display: none;
+    }
+
+    .row-div h2::before{
+        display: none;
+    }
+    .row-div h2::after{
+        display: none;
+    }
+
 }

@@ -195,5 +195,13 @@
         margin: 0;
     }
 
+    .contact_div h2::after {
+        display: none;
+    }
+
+    .contact_div h2::before {
+        display: none;
+    }
+
 
 }

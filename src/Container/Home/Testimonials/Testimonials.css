@@ -10,7 +10,7 @@
 
 .testimonials_person_div{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-top: 10px;
 }
 
@@ -41,7 +41,6 @@
     color: #fff;
     margin-bottom: 20px;
 }
-
 
 .testimonials_div::after{
     position: absolute;
@@ -79,7 +78,9 @@ background-image: url('../../../assets/tri1.png')
 }
 
 .testimonials_person_div p {
-color: #000;
+   color: #000;
+    padding-left: 10px;
+    font-size: 13px;
 
 }
 
