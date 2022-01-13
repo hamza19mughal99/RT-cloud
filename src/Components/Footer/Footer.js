@@ -51,6 +51,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <input className="footer_input" placeholder="Your Message Here" />
+                                    <button className={'submit_btn'}>Submit</button>
                             </div>
 
                             <div className='footer_social_icons'>

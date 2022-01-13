@@ -20,7 +20,7 @@ const Header = () => {
                             <NavLink className="nav_link" to={'/contact-us'}>Contact us</NavLink>
                         </div>
                     </Nav>
-                    <button className={'get_started_btn'}>Get Started</button>
+                    <NavLink to={'/contact-us'}> <button className={'get_started_btn'}>Get Started</button> </NavLink>
                 </Navbar.Collapse>
                 </Container>
             </Navbar>

@@ -12,6 +12,7 @@ import BigTeam from "../../assets/big-team.png";
 import ColdBore from "../../assets/cold.png";
 import Testimonials from "./Testimonials/Testimonials";
 import Quote from "./Quote/Quote";
+import {NavLink} from "react-router-dom";
 
 const Home = () => {
 
@@ -67,7 +68,7 @@ const Home = () => {
                                 through stable, reliable, secure, fast, infrastructure
                                 -as-code (IaC) that is transparent and under your
                                 control. We're your pilot in the cloud.</p>
-                            <button className={'get_started_btn'}>Get Started</button>
+                            <NavLink to={"/about-us"}> <button className={'get_started_btn'}>Get Started</button> </NavLink>
                         </div>
                     </div>
                 </div>
@@ -93,7 +94,7 @@ const Home = () => {
                                 <p>We have experience with the Personal Information Protection and
                                     Electronic Documents Act (PIPEDA), a compliance regime designed to
                                     protect the private data of Canadians.</p>
-                                <button className={'read_more_btn float-right'}>Read More</button>
+                                <NavLink to={"/about-us"}><button className={'read_more_btn float-right'}>Read More</button> </NavLink>
                             </div>
                         </div>
                     </div>
@@ -122,7 +123,7 @@ const Home = () => {
                         }
                     </div>
                     <div className="text-center mt-3">
-                        <button className="read_more_btn">Talk to a Cloud Expert</button>
+                        <NavLink to={"/service"}>    <button className="read_more_btn">Talk to a Cloud Expert</button> </NavLink>
                     </div>
 
                 </div>
