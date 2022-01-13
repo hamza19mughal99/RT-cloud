@@ -1,0 +1,198 @@
+.quote_main_div {
+    background-image: url(../../../assets/contact-bg.png);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding: 60px 0;
+}
+
+.quote_div{
+    width: 80%;
+    border-radius: 40px;
+    background: #fff;
+    padding: 150px 0;
+}
+
+.quote_div h2{
+    text-align: center;
+    color: #0073B4;
+    margin-left: 10%;
+}
+
+
+.quote_form{
+    padding: 20px;
+}
+
+.quote_col_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_div{
+    border-radius: 46px;
+    background: #0073b4;
+
+}
+
+.input_div{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.input_div::placeholder{
+    font-weight: 600;
+    color: #3D3F42;
+}
+
+.input_email_div{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.input_email_div::placeholder{
+    font-weight: 600;
+    color: #3D3F42;
+}
+
+.input_text_div{
+    border: 1px solid #000;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.input_text_div::placeholder{
+    font-weight: 600;
+    color: #3D3F42;
+}
+
+.contact_div h2 {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+
+.contact_div h2::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 74%;
+    border-bottom: 4px solid #fff;
+}
+
+.contact_div h2::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50px;
+    left: 30%;
+    right: 41%;
+    border-bottom: 4px solid #5DC1ED;
+}
+
+.contact_div {
+    padding: 120px 70px;
+}
+
+.contact_div p {
+    color: #fff;
+}
+
+.contact_col_div{
+    position: absolute;
+    top: 140px;
+}
+
+.contact_btn{
+    background-color: #0073B4 !important;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contact_btn:hover{
+    background-color: #fff !important;
+    color: #0073B4;
+    transition: all 0.5s ease;
+}
+
+.md_icon{
+    color: #fff;
+    margin-right: 10px;
+}
+
+.social_icons{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.input_div:focus{
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .contact_col_div{
+        position: static !important;
+        margin-top: 20px;
+    }
+
+    .quote_div{
+        width: 100%;
+        border-radius: 40px;
+        background: #fff;
+        padding: 150px 0;
+    }
+    
+    .input_div{
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 10px;
+        border: none;
+        border-bottom: 1px solid #000;
+    }
+
+    .input_email_div{
+        border: none;
+        border-bottom: 1px solid #000;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .input_text_div{
+        border: 1px solid #000;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .contact_btn{
+    background-color: #0073B4 !important;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 10px;
+    }
+
+    .quote_div h2{
+        text-align: center;
+        color: #0073B4;
+        margin: 0;
+    }
+
+
+}

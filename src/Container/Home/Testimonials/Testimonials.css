@@ -1,0 +1,117 @@
+.testimonials_img{
+    display: flex;
+    justify-content: end;
+}
+.testimonials_img img{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.testimonials_person_div{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.testimonials_div{
+    border-radius: 12px;
+    background: #0073b4;
+    margin-right: 5px;
+    position: relative;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.testimonials2_div{
+    border-radius: 12px;
+    background: #5DC1ED;
+    margin-right: 5px;
+    position: relative;
+    padding: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.testimonials3_div{
+    border-radius: 12px;
+    background: #D9DCDD;
+    margin-right: 5px;
+    position: relative;
+    padding: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.testimonials_div::after{
+    position: absolute;
+    width: 100px;
+    height: 178px;
+    display: block;
+    content: "";
+    bottom: -87px;
+    left: 0;
+    background-size: cover;
+background-image: url('../../../assets/tri1.png')
+}
+
+.testimonials2_div::after{
+    position: absolute;
+    width: 100px;
+    height: 178px;
+    display: block;
+    content: "";
+    bottom: -87px;
+    left: 0;
+    background-size: cover;
+    background-image: url('../../../assets/tri2.png')
+}
+.testimonials3_div::after{
+    position: absolute;
+    width: 100px;
+    height: 178px;
+    display: block;
+    content: "";
+    bottom: -87px;
+    left: 0;
+    background-size: cover;
+    background-image: url('../../../assets/tri3.png')
+}
+
+.testimonials_person_div p {
+color: #000;
+
+}
+
+.testimonials_person_div h5 {
+padding-left: 5px;
+}
+
+.testimonials_div p {
+color: #fff;
+}
+
+.testimonial_h1{
+position: relative;
+}
+
+.testimonial_h1::after{
+position: absolute;
+display: block;
+content: "";
+top: 75px;
+bottom: 0;
+left: 41%;
+right: 51%;
+border-bottom: 4px solid #0073B4;
+}
+
+.testimonial_h1::before{
+position: absolute;
+display: block;
+content: "";
+top: 84px;
+left: 50%;
+right: 41%;
+border-bottom: 4px solid #5DC1ED;
+}

@@ -1,0 +1,31 @@
+.main_about_div{
+    background-image: url(../../assets/about-bg-img.png);
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    color: #fff !important;
+}
+
+.main_service_div{
+    background-image: url(../../assets/service.png);
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    color: #fff !important;
+}
+
+.main_contact_div{
+    background-image: url(../../assets/contact-bg-img.png);
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    color: #fff !important;
+}
+
+.common_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}

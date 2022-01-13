@@ -1,0 +1,20 @@
+.service_div{
+    padding: 40px;
+}
+
+.service_text_div h1{
+    color: #5DC1ED;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.service_text_div p {
+    color: #3D3F42;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.service_img_div img{
+   width: 85%;
+}
