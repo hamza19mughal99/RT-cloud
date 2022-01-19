@@ -36,7 +36,7 @@ const Quote = () => {
                                             </textarea>
                                         </div>
                                         <div className='col-md-4 offset-lg-8 d-flex justify-content-center'>
-                                            <button className={'contact_btn mb-4'}>Contact Us</button>
+                                            <button className={'contact_btn mb-4'}>Submit</button>
                                         </div>
                                     </div>
                                 </div>

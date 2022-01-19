@@ -9,7 +9,7 @@ const Header = () => {
         <React.Fragment>
             <Navbar expand="lg" className="Navbar-header">
                 <Container>
-                <Navbar.Brand to="/"><img src={Logo} alt={'logo'}/></Navbar.Brand>
+                <NavLink to="/"><img src={Logo} alt={'logo'}/></NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
