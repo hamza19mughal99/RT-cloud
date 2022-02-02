@@ -1,6 +1,7 @@
 import React from 'react';
 import footerLogo from "../../assets/footer-logo.png";
 import { BsInstagram, BsTwitter } from "react-icons/bs"
+import {NavLink} from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa"
 import "./Footer.css";
 
@@ -23,10 +24,10 @@ const Footer = () => {
                                 <p>PAGE LINKS</p>
                             </div>
                             <ul>
-                                <li>Home</li>
-                                <li>About Us</li>
-                                <li>Service</li>
-                                <li>Contact Us</li>
+                            <NavLink to={'/'}><li>Home</li></NavLink>
+                            <NavLink to={'/about-us'}><li>About Us</li></NavLink>
+                            <NavLink to={'/service'}><li>Service</li></NavLink>
+                            <NavLink to={'/contact-us'}><li>Contact Us</li></NavLink>
                             </ul>
                         </div>
                         <div className="col-md-3 footer_page_link">
