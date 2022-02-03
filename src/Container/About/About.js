@@ -2,6 +2,8 @@ import React from 'react';
 import CommonSection from "../CommonSection/CommonSection";
 import AboutUs from "../../assets/aboutUs.png";
 import ConsultingImg from "../../assets/about2-img.png"
+import {NavLink} from "react-router-dom";
+
 
 const About = () => {
     return (
@@ -101,7 +103,7 @@ const About = () => {
                                     and more recently with desktop publishing software
                                     like Aldus PageMaker including versions of Lorem Ipsum.
                                 </p>
-                                <button className={'read_more_btn float-left mb-4'}>Contact Us</button>
+                            <NavLink to={'/contact-us'}><button className={'read_more_btn float-left mb-4'}>Contact Us</button> </NavLink>
                             </div>
                         </div>
 
